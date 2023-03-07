@@ -1,32 +1,15 @@
 # HyperionDev WD T53
 
-This is a RESTful API created using Express that allows a user to store a list of 'Web project' items. By using [Postman](https://www.postman.com/), the user can add, edit, and delete entries.
+This is a very simple project tracker app created using React and Express.
 
-## Add a project
+## How to use
+Simply clone the repository and run the development sever using npm run.
 
-1. Set the request method to POST
-2. Set the url in Postman to http://localhost:8080/webProjects/:title/:description/:url.
-    * _Note, change the parameters after /webprojects/ to desired values._
-3. Send request via Postman
+## Adding a new project
+Click the plus icon on the page. This will open a popup modal that can be used to add new content.
 
-## View projects
+## Editting a project
+Click the edit button on the project you wish to change. All edits will be reflected once the submit button has been clicked.
 
-1. Set the request method to GET
-2. Set the url in Postman to http://localhost:8080/api and send the request.
-3. Postman will return an array of objects submitted.
-
-## Edit a project
-
-1. Set the request method to PUT.
-2. Set the url in Postman to http://localhost:8080/webProjects/:index/?queryString=response
-    * Change :index to index number of project you would like to edit.
-    * Project values can be updated using a query string. Please note, only one value can be udpated per request. Query strings available to update:
-        * Title: ?title=New title
-        * Description: ?description=New description
-        * URL: ?url=New URL
-
-## Delete a project
-
-1. Set the request method to DELETE.
-2. Set the URL in Postman to http://localhost:8080/webProjects/:index
-    * Change :index to index number of project you would like to delete.
+## Deleting a project
+To delete a project, click the delete button. This will permanently remove the project from the app.

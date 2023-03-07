@@ -1,0 +1,49 @@
+/* General Page CSS */
+body{
+  background: #58d182;
+}
+
+.page-content {
+  text-align: center;
+}
+
+/* Default Project */
+.project-item-default {
+  border: solid #45a366b4 10px;
+  border-radius: 20px;
+}
+
+.project-item-default p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.add-project {
+  font-size: 5rem;
+  color: #45a366b4;
+  transition: 100ms;
+}
+
+.add-project:hover {
+  color: white;
+}
+
+/* Project Items */
+.project-item {
+  border: solid #45a366b4 10px;
+  border-radius: 20px;
+  color: black;
+  text-align: left;
+  background-color: white;
+  min-height: 250px;
+}
+
+/* Modal */
+.modal-header {
+  color: black;
+}
+
+/* Form */
+form {
+  color: black;
+}
